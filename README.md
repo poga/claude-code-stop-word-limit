@@ -12,4 +12,4 @@ so here it is. a simple hook that whenever they post a giant wall of text, the h
 
 They still write those texts every single time. but now I have an easy to understanding, easy to ask follow-up question abstract.
 
-This does not save you tokens. But that's not what I'm looking for.
+This does not save you tokens. But it helps you turning their outputs into outcomes.
