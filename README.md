@@ -1,5 +1,9 @@
 An attempt to make Fable 5/Opus 5 easier to work with.
 
+Register this as a Stop hook.
+
+## Notes
+
 I personally have no big issue on their writing style for technical discussion. but a short abstract about what they're trying to say would save me lots of time.
 
 My assumption about the root cause of the problem. non of these is verified. so take it with a grain of salt.
