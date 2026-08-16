@@ -11,6 +11,6 @@ active=$(jq -r '.stop_hook_active // false' <<<"$input")
 words=$(jq -r '.last_assistant_message // "" | [scan("\\S+")] | length' <<<"$input")
 
 if [ "${words:-0}" -gt 150 ]; then
-  jq -n '{decision: "block", reason: "Restate concisely. That reply is too long to follow. Re-pitch it: give a little context, use ASD-STE100 Simplified Technical English, and stay under 150 words per text block."}'
+  jq -n '{decision: "block", reason: "Wait — I do not understand where you have got to here. That reply is too long to follow. Re-pitch it: give a little context, use ASD-STE100 Simplified Technical English, and stay under 150 words per text block."}'
 fi
 exit 0
